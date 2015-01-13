@@ -19,17 +19,6 @@
     return self;
 }
 
-/*
- compose mode:
- don't get a correctbeats rhythm
- end of bar checking:
- if levelIteration == 0
- if tagged beats more than three,
- save tagged beats in correctbeats
- then further leveliterations as normal
- 
-*/
-
 -(NSArray *)getOrSetRhythm:(NSArray *)rhythm AtInstance:(Rhythm *)rhythmInstance ForLevel:(NSInteger)level ForNumberOfBeats:(NSInteger)beats {
     NSArray *returnRhythm = [rhythmInstance saveOrLoadComposedRhythm:rhythm AtLevel:level];
     return returnRhythm;

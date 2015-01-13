@@ -22,17 +22,13 @@
 		2E08574A1A010A3B008BEEF8 /* sinesample4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0857481A010A3B008BEEF8 /* sinesample4.caf */; };
 		2E8E03C21A306F8600573E9E /* 4:4 count-in.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E03C11A306F8600573E9E /* 4:4 count-in.aiff */; };
 		2E8E03CD1A30F21100573E9E /* SixteenBeatsBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03CC1A30F21100573E9E /* SixteenBeatsBehavior.m */; };
-		2E8E03D31A30F2C000573E9E /* SixteenBeatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03D21A30F2C000573E9E /* SixteenBeatsController.m */; };
 		2E8E03D61A30F30700573E9E /* TwelveBeatsBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03D51A30F30700573E9E /* TwelveBeatsBehavior.m */; };
 		2E8E03D91A30F33E00573E9E /* TwentyBeatsBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03D81A30F33E00573E9E /* TwentyBeatsBehavior.m */; };
-		2E8E03DF1A30F41D00573E9E /* TwelveBeatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03DE1A30F41D00573E9E /* TwelveBeatsController.m */; };
-		2E8E03E21A30F44700573E9E /* TwentyBeatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03E11A30F44700573E9E /* TwentyBeatsController.m */; };
 		2E8E03E81A31F60000573E9E /* DoComposeBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03E71A31F60000573E9E /* DoComposeBehavior.m */; };
 		2E8E03EB1A31F60B00573E9E /* NoComposeBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03EA1A31F60B00573E9E /* NoComposeBehavior.m */; };
 		2E8E03ED1A360F3C00573E9E /* appmusic12trimmed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E03EC1A360F3C00573E9E /* appmusic12trimmed.mp3 */; };
 		2E8E03F31A3A223F00573E9E /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E03F21A3A223F00573E9E /* ContainerController.m */; };
 		2EDCC36C1A2FADE900CE5074 /* applause.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EDCC36B1A2FADE900CE5074 /* applause.caf */; };
-		2EDFA53A1A3F41E400F0D1AB /* DoComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFA5391A3F41E400F0D1AB /* DoComposeController.m */; };
 		2EDFA53D1A42E86700F0D1AB /* Evaluation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFA53C1A42E86700F0D1AB /* Evaluation.m */; };
 		2EDFA5401A42ED8A00F0D1AB /* BarDidEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFA53F1A42ED8A00F0D1AB /* BarDidEnd.m */; };
 		2EDFA5431A42ED9800F0D1AB /* UserDidClickPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFA5421A42ED9800F0D1AB /* UserDidClickPlay.m */; };
@@ -77,16 +73,10 @@
 		2E8E03C41A30EAAF00573E9E /* ComposeBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeBehavior.h; sourceTree = "<group>"; };
 		2E8E03CB1A30F21100573E9E /* SixteenBeatsBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixteenBeatsBehavior.h; sourceTree = "<group>"; };
 		2E8E03CC1A30F21100573E9E /* SixteenBeatsBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixteenBeatsBehavior.m; sourceTree = "<group>"; };
-		2E8E03D11A30F2C000573E9E /* SixteenBeatsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixteenBeatsController.h; sourceTree = "<group>"; };
-		2E8E03D21A30F2C000573E9E /* SixteenBeatsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixteenBeatsController.m; sourceTree = "<group>"; };
 		2E8E03D41A30F30700573E9E /* TwelveBeatsBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelveBeatsBehavior.h; sourceTree = "<group>"; };
 		2E8E03D51A30F30700573E9E /* TwelveBeatsBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelveBeatsBehavior.m; sourceTree = "<group>"; };
 		2E8E03D71A30F33E00573E9E /* TwentyBeatsBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyBeatsBehavior.h; sourceTree = "<group>"; };
 		2E8E03D81A30F33E00573E9E /* TwentyBeatsBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyBeatsBehavior.m; sourceTree = "<group>"; };
-		2E8E03DD1A30F41D00573E9E /* TwelveBeatsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelveBeatsController.h; sourceTree = "<group>"; };
-		2E8E03DE1A30F41D00573E9E /* TwelveBeatsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelveBeatsController.m; sourceTree = "<group>"; };
-		2E8E03E01A30F44700573E9E /* TwentyBeatsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwentyBeatsController.h; sourceTree = "<group>"; };
-		2E8E03E11A30F44700573E9E /* TwentyBeatsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwentyBeatsController.m; sourceTree = "<group>"; };
 		2E8E03E61A31F60000573E9E /* DoComposeBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoComposeBehavior.h; sourceTree = "<group>"; };
 		2E8E03E71A31F60000573E9E /* DoComposeBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoComposeBehavior.m; sourceTree = "<group>"; };
 		2E8E03E91A31F60B00573E9E /* NoComposeBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoComposeBehavior.h; sourceTree = "<group>"; };
@@ -95,8 +85,6 @@
 		2E8E03F11A3A223F00573E9E /* ContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
 		2E8E03F21A3A223F00573E9E /* ContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
 		2EDCC36B1A2FADE900CE5074 /* applause.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = applause.caf; path = ../../../Music/Assets/applause.caf; sourceTree = "<group>"; };
-		2EDFA5381A3F41E400F0D1AB /* DoComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoComposeController.h; sourceTree = "<group>"; };
-		2EDFA5391A3F41E400F0D1AB /* DoComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoComposeController.m; sourceTree = "<group>"; };
 		2EDFA53B1A42E86700F0D1AB /* Evaluation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluation.h; sourceTree = "<group>"; };
 		2EDFA53C1A42E86700F0D1AB /* Evaluation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Evaluation.m; sourceTree = "<group>"; };
 		2EDFA53E1A42ED8A00F0D1AB /* BarDidEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDidEnd.h; sourceTree = "<group>"; };
@@ -218,14 +206,6 @@
 				2E8E03F21A3A223F00573E9E /* ContainerController.m */,
 				2E0857361A0108AF008BEEF8 /* ScoreViewController.h */,
 				2E0857371A0108AF008BEEF8 /* ScoreViewController.m */,
-				2E8E03D11A30F2C000573E9E /* SixteenBeatsController.h */,
-				2E8E03D21A30F2C000573E9E /* SixteenBeatsController.m */,
-				2E8E03DD1A30F41D00573E9E /* TwelveBeatsController.h */,
-				2E8E03DE1A30F41D00573E9E /* TwelveBeatsController.m */,
-				2E8E03E01A30F44700573E9E /* TwentyBeatsController.h */,
-				2E8E03E11A30F44700573E9E /* TwentyBeatsController.m */,
-				2EDFA5381A3F41E400F0D1AB /* DoComposeController.h */,
-				2EDFA5391A3F41E400F0D1AB /* DoComposeController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -356,7 +336,6 @@
 				2E8E03D61A30F30700573E9E /* TwelveBeatsBehavior.m in Sources */,
 				2E8E03EB1A31F60B00573E9E /* NoComposeBehavior.m in Sources */,
 				2E8E03D91A30F33E00573E9E /* TwentyBeatsBehavior.m in Sources */,
-				2E8E03E21A30F44700573E9E /* TwentyBeatsController.m in Sources */,
 				2E8E03E81A31F60000573E9E /* DoComposeBehavior.m in Sources */,
 				2E8E03F31A3A223F00573E9E /* ContainerController.m in Sources */,
 				2EDFA5401A42ED8A00F0D1AB /* BarDidEnd.m in Sources */,
@@ -366,9 +345,6 @@
 				2E0857441A0108AF008BEEF8 /* AudioSamplePlayer.m in Sources */,
 				2E08570C1A010824008BEEF8 /* main.m in Sources */,
 				2E0857421A0108AF008BEEF8 /* ScoreViewController.m in Sources */,
-				2E8E03DF1A30F41D00573E9E /* TwelveBeatsController.m in Sources */,
-				2E8E03D31A30F2C000573E9E /* SixteenBeatsController.m in Sources */,
-				2EDFA53A1A3F41E400F0D1AB /* DoComposeController.m in Sources */,
 				2E0857461A0108AF008BEEF8 /* Rhythm.m in Sources */,
 				2EDFA5431A42ED9800F0D1AB /* UserDidClickPlay.m in Sources */,
 				2E0857451A0108AF008BEEF8 /* Melody.m in Sources */,

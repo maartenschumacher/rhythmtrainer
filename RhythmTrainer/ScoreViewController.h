@@ -5,7 +5,6 @@
 //  Created by Maarten Schumacher on 10/2/14.
 //  Copyright (c) 2014 Maarten Schumacher. All rights reserved.
 //
-//  Abstract class!
 
 #import <UIKit/UIKit.h>
 #import "Rhythm.h"
@@ -29,7 +28,6 @@
 
 -(void)changeLevel;
 
-//subclassing
 
 -(void)highlightBeat:(NSInteger)clickedBeat;
 -(void)userDidClickPlay;
